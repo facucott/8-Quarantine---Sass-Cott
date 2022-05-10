@@ -1,0 +1,25 @@
+section{
+    width: 100%;
+    background-color: $color3;
+    padding: 70px
+}
+
+.contenedor{
+    height: 150px;
+    text-align: center;
+    margin: 20px auto;
+    background-color: $color2;
+    padding: 100px;
+    border: 2px solid $color1;
+    width: 20%;
+    transition-property: all;
+    transition-duration: 0.5s;
+    &:hover{width: 300px; cursor: pointer;}
+}
+
+@for $in from 1 through 7 {
+
+    .color-#{$in} {
+        background-color: darken($color3, $in * 10%);
+    }
+}

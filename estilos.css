@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Varta:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  background-color: black;
+}
+
+header h1 {
+  font-family: "Varta", sans-serif;
+  color: #d4bf97;
+  text-align: center;
+  padding: 50px;
+  letter-spacing: 1px;
+}
+
+header h1:hover {
+  color: white;
+  cursor: pointer;
+}
+
+section {
+  width: 100%;
+  background-color: #d4bf97;
+  padding: 70px;
+}
+
+.contenedor {
+  height: 150px;
+  text-align: center;
+  margin: 20px auto;
+  background-color: white;
+  padding: 100px;
+  border: 2px solid black;
+  width: 20%;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.contenedor:hover {
+  width: 300px;
+  cursor: pointer;
+}
+
+.color-1 {
+  background-color: #c5a973;
+}
+
+.color-2 {
+  background-color: #b6934f;
+}
+
+.color-3 {
+  background-color: #95773d;
+}
+
+.color-4 {
+  background-color: #705a2f;
+}
+
+.color-5 {
+  background-color: #4c3d20;
+}
+
+.color-6 {
+  background-color: #282011;
+}
+
+.color-7 {
+  background-color: #040302;
+}
+
+footer {
+  background-color: black;
+  color: #d4bf97;
+  padding: 20px 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+/*# sourceMappingURL=estilos.css.map */

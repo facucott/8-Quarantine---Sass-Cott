@@ -1,3 +1,5 @@
+// MUESTRARIO
+
 section{
     width: 100%;
     background-color: $color3;
@@ -16,6 +18,8 @@ section{
     transition-duration: 0.5s;
     &:hover{width: 300px; cursor: pointer;}
 }
+
+// BUCLE - COLORES
 
 @for $in from 1 through 7 {
 

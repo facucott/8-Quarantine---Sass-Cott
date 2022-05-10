@@ -16,6 +16,22 @@ $color3: #d4bf97;
     box-sizing: border-box;
 }
 
+// SCROLL BAR
+
+::-webkit-scrollbar-track{
+    background-color: black;
+}
+::-webkit-scrollbar{
+    background-color: black;
+    width: 15px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #d4bf97;
+    border: solid 2px black;
+}
+
+// HEADER
+
 header{
     background-color: $color1;
 
